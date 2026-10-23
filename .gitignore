@@ -1,2 +1,3 @@
 node_modules/
+.DS_Store
 release/tm-mf-pricing.debug.user.js
