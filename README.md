@@ -8,11 +8,17 @@
 
 モーダルでは、ひとり法人 / スモールビジネス / ビジネス の各プランについて、基本料金・アカウント数・追加料金などを表で確認できます。
 
+例
+
+![](docs/assets/1.jpeg)
+
+![](docs/assets/2.jpeg)
+
 ## インストール
 
-1. ブラウザに [Tampermonkey](https://www.tampermonkey.net/) を入れます
-2. 次のリンクを開き、Tampermonkey のインストール画面でインストールします
-
+1. ブラウザに [Tampermonkey](https://www.tampermonkey.net/) を入れます。  
+   会社の PC にインストールする場合は、インストールしてもよいか情報部門に確認してください。一般的にはだめです。
+2. 次のリンクを開き、Tampermonkey のインストール画面でインストールします。  
    https://github.com/insell824/tm-mf-pricing/raw/refs/heads/main/release/tm-mf-pricing.latest.user.js
 
 特定のバージョンを使う場合は `release/tm-mf-pricing.{version}.user.js` を開いてください。
@@ -35,6 +41,7 @@
 | クラウドBox          | box.moneyforward.com              |
 
 料金は [マネーフォワード クラウドの料金ページ](https://biz.moneyforward.com/price/) をもとにした税抜価格です。最新の情報は公式ページで確認してください。
+料金の間違いに気づいた方は Issue で報告いただけると幸いです。
 
 ## 開発
 
@@ -79,4 +86,4 @@ debug 版はコンソールに判定結果を出力します。
 
 ## 注意
 
-このスクリプトは非公式です。株式会社マネーフォワードとは関係ありません。
+このスクリプトは非公式です。公式とは関係ありません。
